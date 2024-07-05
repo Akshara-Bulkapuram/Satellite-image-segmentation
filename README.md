@@ -9,6 +9,8 @@ The satellite imagery of dataset of the Pleiades-1A satellite was used for this 
 divided into tiles of size 128 x 128 making a total of 8910 tiles which is our dataset size. The images were labeled with six unique classes, namely: (1) vegetation; (2) built-up; (3) informal settlements; (4) impervious surfaces (roads/highways, streets, parking lots, road like area around buildings, etc.); (5) barren; and (6) water.
 Below figures show the class color mapping for each class and satellite images along with their ground-truth masks.
 
+link to dataset : https://data.mendeley.com/datasets/xj2v49zt26/1
+
 <img src="https://github.com/Akshara-Bulkapuram/Satellite-image-segmentation/assets/94600166/425170cc-4cd9-48ee-a34d-d35647519666" width="256"   align="middle">
 
 <img src="https://github.com/Akshara-Bulkapuram/Satellite-image-segmentation/assets/94600166/78a83af5-b233-4372-8e2e-9eebc48d83dd" width='500'   align="middle">
