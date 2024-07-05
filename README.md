@@ -1,6 +1,6 @@
 # SATELLITE IMAGE SEGMENTATION
 
-This project focuses on the semantic segmentation of satellite images of Mumbai, aiming to delineate seven distinct land cover classes: Informal Settlements, Built-Up areas, Impervious Surfaces, Vegetation, Barren land, Water bodies, and
+This project focuses on the semantic segmentation of satellite images of Mumbai, aiming to segment seven distinct land cover classes: Informal Settlements, Built-Up areas, Impervious Surfaces, Vegetation, Barren land, Water bodies, and
 regions labeled as ’unknown’. for this purpose we implemented DeepLabv3+, MobileNet-V2-UNet, VGG16-UNet , Pix2pix GAN Models
 
 ## Dataset:
@@ -8,7 +8,13 @@ regions labeled as ’unknown’. for this purpose we implemented DeepLabv3+, Mo
 The satellite imagery of dataset of the Pleiades-1A satellite was used for this project. it consists of R, G, and B bands imagery dated 15th March 2017 covers an area of approximately 541.65 square kilometers of Greater Mumbai. the dataset consisits of 110 patches and each patches were
 divided into tiles of size 128 x 128 making a total of 8910 tiles which is our dataset size. The images were labeled with six unique classes, namely: (1) vegetation; (2) built-up; (3) informal settlements; (4) impervious surfaces (roads/highways, streets, parking lots, road like area around buildings, etc.); (5) barren; and (6) water.
 Below figures show the class color mapping for each class and satellite images along with their ground-truth masks.
-![image](https://github.com/Akshara-Bulkapuram/Satellite-image-segmentation/assets/94600166/be007ca8-af23-4663-9039-192005e7cf83)
+
+<img src="https://github.com/Akshara-Bulkapuram/Satellite-image-segmentation/assets/94600166/425170cc-4cd9-48ee-a34d-d35647519666" width="256"   align="middle">
+
+<img src="https://github.com/Akshara-Bulkapuram/Satellite-image-segmentation/assets/94600166/78a83af5-b233-4372-8e2e-9eebc48d83dd" width='500'   align="middle">
+
+
+
 
 ## Preprocessing
 
